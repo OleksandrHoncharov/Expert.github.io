@@ -1,0 +1,22 @@
+@media only screen and (max-width: 992px) {
+    .navbar .nav li:nth-child(5n) {
+        padding-left: 10%;
+    }
+    .nav a {
+        font-size: 80%!importnat;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+   .navbar {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+   .nav {
+        display: none;
+    }
+}
+	
